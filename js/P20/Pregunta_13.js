@@ -11,7 +11,7 @@ function reparteTarjetas() {
     var tarjeta = document.createElement("div");
     
     tarjeta.innerHTML =
-        "<div class='tarjeta'><img src='../img/logo_100.png' width='105' height='105'/>" +
+        "<div class='tarjeta'><img src='../img/Logo_100.png' width='80' height='80'/>" +
         "<div class='tarjeta__contenido'>" +
         elemento +
         "</div>" +
