@@ -1,0 +1,149 @@
+:root {
+  --bg: #fafafa;
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --hotpink: #ff0022;
+  --orange: #12c2da;
+  display: ruby-text as;
+  --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+  background-color:  #8000f0;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.tlogo {
+  display: grid;
+  place-items: center;
+  color: white;
+
+}
+
+.btn {
+  border: none; 
+  color: rgb(0, 0, 0); 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 5px; 
+}
+
+.primary {background-color: #c9d8e7;}
+.primary:hover {background: #c9d8e7;}
+
+/* DivTable.com */
+.divTable{
+	display: grid;
+  place-items: center;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.cabecera {
+  padding: 0.5rem 2rem;
+  background: #0F1120;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+
+.cabecera-titulo {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+  color: rgba(250, 250, 250, 0.993);
+}
+
+.cabecera-num {
+  font-family: var(--font-display);
+  color: var(--hotpink);
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 0.9;
+}
+
+.control-nivel{
+  position: absolute;
+  font-size: .8rem;
+  top: 2.9rem;
+  right: .5rem;
+  padding: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  line-height: .68rem;
+  display: grid;
+  justify-content: left;
+  background: var(--hotpink);
+}
+
+
+.nivel2 {
+  color: rgba(250, 250, 250, 0.993);
+  font-size: 1.5rem;
+}
+
+
+/* DivTable.com */
+.divTable1{
+	display: table;
+	width: 100%;
+  
+}
+.divTableRow1 {
+	display: table-row;
+}
+.divTableHeading1 {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell1, .divTableHead1 {
+	display: table-cell;
+}
+.divTableHeading1 {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot1 {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody1 {
+	display: table-row-group;
+}

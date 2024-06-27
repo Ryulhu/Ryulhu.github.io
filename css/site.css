@@ -1,0 +1,124 @@
+:root {
+  --bg: #fafafa;
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --hotpink: #ff00ff;
+  --orange: #12c2da;
+  display: ruby-text as;
+  --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+  background-color: #000000;
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.tlogo {
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.btn {
+  border: none; 
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+
+.primary {background-color: #007bff;} 
+.primary:hover {background: #0b7dda;}
+
+.cabecera {
+  padding: 0.5rem 2rem;
+  background: #000000;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+
+.cabecera-titulo {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+  color: rgba(250, 250, 250, 0.993);
+}
+
+.cabecera-num {
+  font-family: var(--font-display);
+  color: var(--hotpink);
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 0.9;
+  color: rgba(255, 0, 0, 0.993);
+}
+
+.control-nivel{
+  position: absolute;
+  font-size: .8rem;
+  top: 2.9rem;
+  right: .5rem;
+  padding: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  line-height: .68rem;
+  display: grid;
+  justify-content: left;
+  background: var(--hotpink);
+}
+
+.btnsiguiente{
+  position: grid;
+  justify-content: right;
+}
+
+.nivel2 {
+  color: rgba(250, 250, 250, 0.993);
+  font-size: 1rem;
+}
+
+
+.container{
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+.textonivel {
+  display: grid;
+  place-items: center;
+  float: left;
+  width: 20%;
+
+}
+
+.texto{ 
+  display: grid;
+  place-items: center;
+  width: 60%;
+ 
+}
+
+.boton{
+  display: grid;
+  place-items: center;
+  top: 100%;
+  float: right;
+  width: 20%;
+
+}
+
+
+
+
