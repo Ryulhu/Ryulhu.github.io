@@ -35,7 +35,7 @@ body {
   border-radius: 5px; 
 }
 
-.primary {background-color: #007bff; width: 10.1rem; height: 4.1rem;font-size: 1.5rem;} 
+.primary {background-color: #007bff;} 
 .primary:hover {background: #0b7dda;}
 
 .cabecera {
@@ -48,7 +48,8 @@ body {
 .cabecera-titulo {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 3.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
   line-height: 1;
   margin: 0;
   color: rgba(250, 250, 250, 0.993);
@@ -58,7 +59,7 @@ body {
   font-family: var(--font-display);
   color: var(--hotpink);
   font-weight: 400;
-  font-size: 9rem;
+  font-size: 3.5rem;
   line-height: 0.9;
   color: rgba(255, 0, 0, 0.993);
 }
@@ -84,7 +85,7 @@ body {
 
 .nivel2 {
   color: rgba(250, 250, 250, 0.993);
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 
@@ -98,14 +99,14 @@ body {
   display: grid;
   place-items: center;
   float: left;
-  width: 10%;
+  width: 20%;
 
 }
 
 .texto{ 
   display: grid;
   place-items: center;
-  width: 80%;
+  width: 60%;
  
 }
 
@@ -114,7 +115,7 @@ body {
   place-items: center;
   top: 100%;
   float: right;
-  width: 10%;
+  width: 20%;
 
 }
 
