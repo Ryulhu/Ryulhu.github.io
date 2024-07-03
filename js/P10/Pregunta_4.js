@@ -2,6 +2,8 @@ var grupoTarjetas = ["Respuesta 1", "Respuesta 2", "Respuesta 3", "Respuesta 4",
 
 num= 0;
 
+let winaudio = new Audio('../sonidos/carta.mp3');
+
 
 function reparteTarjetas() {
   var mesa = document.querySelector("#mesa");
@@ -22,6 +24,7 @@ function reparteTarjetas() {
 
 function descubrir() {
   this.classList.add("descubierta");
+  winaudio.play();
 }
 
 
