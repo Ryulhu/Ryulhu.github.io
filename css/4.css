@@ -16,12 +16,12 @@ main {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  max-width: 50rem;
+  max-width: 80rem;
   margin: auto;
 }
 
 .tarjeta {
-  width: 21rem;
+  width: 35rem;
   height: 7.5rem;
   display: grid;
   place-items: center;
@@ -30,7 +30,7 @@ main {
   background-image: var(--gradient);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
-  transition: 0.3s;
+  transition: 0.8s;
   cursor: pointer;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -50,7 +50,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   padding-top: 0.4rem;
 }
 

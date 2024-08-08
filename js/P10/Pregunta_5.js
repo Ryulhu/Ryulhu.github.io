@@ -1,4 +1,4 @@
-var grupoTarjetas = ["Respuesta 1", "Respuesta 2", "Respuesta 3", "Respuesta 4", "Respuesta 5", "Respuesta 6", "Respuesta 7", "Respuesta 8"];
+var grupoTarjetas = ["El Perro [35]", "El gato[25]", "Su pc/Consola [21]", "La manuela [19]"];
 
 num= 0;
 

@@ -1,4 +1,4 @@
-var grupoTarjetas = ["Respuesta 1", "Respuesta 2", "Respuesta 3", "Respuesta 4", "Respuesta 5", "Respuesta 6", "Respuesta 7", "Respuesta 8"];
+var grupoTarjetas = ["El animal [60]", "Una expresion [25]", "Escandalosos [10]","Un oso de peluche [5]"];
 
 num= 0;
 
